@@ -1,4 +1,4 @@
-FROM php:7.0.16-cli
+FROM php:7.0-cli
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update \
   && apt-get install -y git mysql-server mysql-client libmysqlclient-dev --no-install-recommends \
